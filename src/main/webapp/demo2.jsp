@@ -29,7 +29,7 @@
                    {field:'opt',checkbox:"true",title:'编号',width:100},
                    {field:'id',title:'id',width:100},
                    {field:'name',title:'name',width:100},
-                   {field:'caozuo',title:'操作',width:100}
+                   // {field:'caozuo',title:'操作',width:100}
                ]]
            });
        });

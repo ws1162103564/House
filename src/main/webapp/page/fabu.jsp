@@ -64,7 +64,7 @@ $("#district_id").change(function(){  //触发区域的改变事件
 <DIV id=regLogin class=wrap>
 <DIV class=dialog>
 <DL class=clearfix>
-  <h1><a href="guanli.jsp">返回主页面</a></h1>
+  <h1><a href="/page/findzhuyemian.do">返回主页面</a></h1>
   <DT>新房屋信息发布</DT>
   <DD class=past>填写房屋信息</DD></DL>
 <DIV class=box>

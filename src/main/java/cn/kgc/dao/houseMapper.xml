@@ -346,7 +346,7 @@ WHERE h.`USER_ID`=#{userid} and h.isdel=0
  </select>
   <!--查询某条出租房信息-->
   <select id="xiugaizhu" parameterType="string" resultType="Exhouse">
-    SELECT h.ispass,house.id,user_id,type_id AS typeId,title,
+    SELECT house.id,user_id,type_id AS typeId,title,
 description,price,pubdate,
 floorage,contact,street_id AS streetId
 ,path,district_id AS did FROM house LEFT JOIN

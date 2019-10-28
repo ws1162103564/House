@@ -31,13 +31,12 @@
                     {field:'id',title:'编号',width:100},
                     {field:'name',title:'用户名',width:100},
                     {field:'telephone',title:'电话',width:100},
-                    {field:'age',title:'年龄',width:100},
-                    {field:'dd',title:'操作',width:100,
+                   /* {field:'dd',title:'操作',width:100,
                         formatter: function(value,row,index){
                             //同步
                             return "<a href='javascript:delDistrict("+row.id+");'>删除</a> | <a href=''>修改</a>";
                         }
-                    }
+                    }*/
                 ]]
             });
         });
