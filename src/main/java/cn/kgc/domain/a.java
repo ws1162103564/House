@@ -5,7 +5,7 @@ public class a {
     public String a;
 
     public static void main(String[] args) {
-       String a="dididi";
+       String a="kkk";
 
         System.out.println(a);
     }
